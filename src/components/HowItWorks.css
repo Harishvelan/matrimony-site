@@ -1,0 +1,54 @@
+.how-section {
+  background-color: #4a0032;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.how-section .quick-access {
+  color: #f28ab2;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.how-section h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.how-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.how-card {
+  background-color: white;
+  color: #4a0032;
+  border-radius: 12px;
+  width: 220px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.how-card:hover {
+  transform: translateY(-6px);
+}
+
+.how-card img {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 10px;
+}
+
+.how-card h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.how-card p {
+  font-size: 14px;
+  color: #555;
+}
