@@ -2,17 +2,17 @@ import React from 'react';
 import './Gallery.css';
 
 // Import your images (replace these paths with actual image files)
-import img1 from '../assets/gallery1.jpg';
-import img2 from '../assets/gallery2.jpg';
-import img3 from '../assets/gallery3.jpg';
-import img4 from '../assets/gallery4.jpg';
-import img5 from '../assets/gallery5.jpg';
-import img6 from '../assets/gallery6.jpg';
-import img7 from '../assets/gallery7.jpg';
-import img8 from '../assets/gallery8.jpg';
+import img1 from './../assets/images1.jpg';
+import img2 from './../assets/images2.jpg';
+import img3 from './../assets/images3.jpg';
+import img4 from './../assets/images4.jpg';
+import img5 from './../assets/images5.jpg';
 
-const PhotoGallery = () => {
-  const images = [img1, img2, img3, img4, img5, img6, img7, img8];
+
+
+
+const Gallery = () => {
+  const images = [img1, img2, img3, img4, img5];
 
   return (
     <section className="photo-gallery-section">

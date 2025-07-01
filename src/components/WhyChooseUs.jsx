@@ -1,12 +1,12 @@
 import React from 'react';
 import './WhyChooseUs.css';
-import heroImg from '../assets/hero.png'; // Replace with your own image
-
+// Replace with your own image
+import heroImg from './../assets/images1.jpg';
 const WhyChooseUs = () => {
   return (
     <section className="why-choose-us">
       <div className="hero-container">
-        <img src={heroImg} alt="Happy Person" className="hero-img" />
+        {/* <img src={heroImg} alt="Happy Person" className="hero-img" /> */}
         <h4>#1 WEEDING WEBSITE</h4>
         <h1>Why choose us</h1>
         <p>Most Trusted and premium Matrimony Service in the World</p>

@@ -1,7 +1,8 @@
 import React from 'react';
 import './WelcomeSection.css';
-import couple1 from '../assets/couple1.jpg'; // Replace with your actual image path
-import couple2 from '../assets/couple2.jpg';
+import { FaUsers, FaMale, FaFemale, FaRing } from 'react-icons/fa';
+import couple1 from './../assets/images3.jpg';
+import couple2 from './../assets/images3.jpg';
 
 const WelcomeSection = () => {
   return (
@@ -25,36 +26,30 @@ const WelcomeSection = () => {
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
           </p>
           <div className="contacts">
-            <p>
-              📞 <strong>Enquiry</strong><br />
-              +880 179 765 0987
-            </p>
-            <p>
-              📧 <strong>Get Support</strong><br />
-              info@example.com
-            </p>
+            <p><strong>📞 Enquiry</strong><br />+880 179 765 0987</p>
+            <p><strong>📧 Get Support</strong><br />info@example.com</p>
           </div>
         </div>
       </div>
 
       <div className="stats">
         <div className="stat-card">
-          <div className="icon">🧑‍🤝‍🧑</div>
+          <FaUsers className="stat-icon" />
           <p>Total Groom and Bride's Biodatas</p>
           <h3>5,165</h3>
         </div>
         <div className="stat-card">
-          <div className="icon">👨‍💼</div>
+          <FaMale className="stat-icon" />
           <p>Total Groom Biodatas</p>
           <h3>2,184</h3>
         </div>
         <div className="stat-card">
-          <div className="icon">👰</div>
+          <FaFemale className="stat-icon" />
           <p>Total Bride's Biodatas</p>
           <h3>5,165</h3>
         </div>
         <div className="stat-card">
-          <div className="icon">💍</div>
+          <FaRing className="stat-icon" />
           <p>Total Successful Marriages</p>
           <h3>1,600+</h3>
         </div>

@@ -1,54 +1,70 @@
+/* HowItWorks.css */
+
 .how-section {
-  background-color: #4a0032;
-  color: white;
+  background-color: #4b002f;
   padding: 60px 20px;
   text-align: center;
+  color: white;
 }
 
-.how-section .quick-access {
-  color: #f28ab2;
-  font-weight: 600;
-  margin-bottom: 8px;
+.quick-access {
+  color: #e91e63;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-weight: 500;
 }
 
-.how-section h2 {
+.how-title {
   font-size: 28px;
+  font-weight: 700;
   margin-bottom: 40px;
+  color: #fff;
 }
 
 .how-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .how-card {
   background-color: white;
-  color: #4a0032;
+  color: #333;
   border-radius: 12px;
+  padding: 30px 20px;
   width: 220px;
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
 .how-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-5px);
 }
 
-.how-card img {
-  width: 36px;
-  height: 36px;
-  margin-bottom: 10px;
+.how-icon {
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: #c2185b;
 }
 
 .how-card h4 {
   font-size: 16px;
-  margin-bottom: 8px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .how-card p {
   font-size: 14px;
+  line-height: 1.5;
   color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .how-card {
+    width: 90%;
+  }
 }

@@ -1,5 +1,5 @@
 import Hero from '../components/Hero';
-import createBiodata from '../components/CreateBiodata';
+import CreateBiodata from '../components/CreateBiodata';
 import HowItWorks from '../components/HowItWorks';
 import Testimonials from '../components/Testimonials';
 import WhyChooseUs from '../components/WhyChooseUs';
@@ -15,13 +15,16 @@ function Home() {
     <div>
       <Header/>
       <Hero />
-      <createBiodata/>
-      <CustomerReviews />
-      <HowItWorks />
-      <Testimonials />
-      <WhyChooseUs />
       <WelcomeSection />
+      
+      <HowItWorks />
+      <CustomerReviews />
+      
+      {/* <Testimonials /> */}
+      <WhyChooseUs />
       <Gallery />
+      <CreateBiodata/>
+      
       <Footer />
     </div>
   );
